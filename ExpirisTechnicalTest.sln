@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpirisTechnicalTest", "ExpirisTechnicalTest\ExpirisTechnicalTest.csproj", "{12238231-1725-4532-8397-00BD74BB38D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpirisTechnicalTest", "Dropdowns\ExpirisTechnicalTest.csproj", "{B1D9D933-2A10-4822-BC48-A74B36F4BCCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{12238231-1725-4532-8397-00BD74BB38D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12238231-1725-4532-8397-00BD74BB38D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12238231-1725-4532-8397-00BD74BB38D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12238231-1725-4532-8397-00BD74BB38D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D9D933-2A10-4822-BC48-A74B36F4BCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D9D933-2A10-4822-BC48-A74B36F4BCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D9D933-2A10-4822-BC48-A74B36F4BCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D9D933-2A10-4822-BC48-A74B36F4BCCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6B07279B-A9C4-4754-A346-C310EFA338DF}
+		SolutionGuid = {D1705E11-7713-446F-AD78-47465F778E40}
 	EndGlobalSection
 EndGlobal

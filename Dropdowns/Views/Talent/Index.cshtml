@@ -1,0 +1,23 @@
+﻿@model ExpirisTechnicalTest.Models.DropdownlistTecnologyModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="col-sm-4 col-sm-offset-4">
+        <h1>Buscador de Talento </h1>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                @using (Html.BeginForm("Index", "Talent", FormMethod.Post, new { role = "form" }))
+                {@* Name textbox *@
+                <div class="form-group">
+                    <h3>Tecnología </h3>
+                    @Html.DropDownListFor(m => m.Technology, Model.Technologies, "- Selecione tecnología -", new { @class = "form-control" })
+                </div>
+                <button type="submit" class="btn btn-primary">Siguente</button>}
+            </div>
+        </div>
+        <p class="text-justify">Esta es una prueba técnica para Expiris, por favor seleccione tecnología y pulse en siguiente</p>
+    </div>
+</div>
+
